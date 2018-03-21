@@ -2,4 +2,22 @@ IT635 Midterm Project
 
 Done By: Dhruv Ardeshana
 
-- Created, tested and uploaded basic sql and php files that are working perfectly fine. 
+To replicate this project: 
+
+Copy and restore midtermprojectbak.sql
+
+Copy and paste all the file within "web" folder in /var/www/html just the file. Do not copy and paste the "web" folder in html folder.
+
+Open a web browswer type yoururl and it should take you to login page. 
+Login credentials: testuser01 pass:12345
+After login in screen you should be at add_ticket.php where you be able to fill in all the details and enter the ticket 
+
+How to enter a ticket? 
+Fill in all the details
+***Note: Assigned Tech field only accepts 3 var for example (TTT, DAA, BOB)
+After filling out all the details click submit and you should get confirmation ticket created or ticket not created
+
+If ticket is created go to yoururl/ticket_page.php to view all tickets. 
+ 
+
+
